@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+  background: #FFFFFF;
+}
+
+/*FORMATAÇÃO MENU*/
+
+nav#menu{
+  display: inline-block;
+}
+
+nav#menu ul {
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: -5px;
+  left: 65%;
+}
+
+nav#menu li {
+  font-family: arial, sans-serif;
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 13px;
+  margin: 10px;
+  transition: background-color 1s;
+  border-radius: 10%;
+}
+
+nav#menu li:hover {
+  background: #5186E8;
+}
+
+nav#menu h1 {
+  display: none;
+}
+
+nav#menu a {
+  color: #000000;
+  text-decoration: none;
+}
+
+header#cabecalho {
+  height: 150px;
+  width: 100%;
+  background-color: #2F71E8;
+  margin-top: -10px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.5);
+}
+
+hgroup#descricao h1 {
+  color: #ffffff;
+  padding: 15px 0px 0px 15px;
+  font-family: arial, sans-serif;
+  font-size: 20pt;
+}
+
+/*FORMATAÇÃO DIV*/
+
+div#interface {
+  width: 100%;
+  background-color: #ffffff;
+  margin: -20px 0px 0px 0px;
+}
+
+div#sobre {
+  height: 500px;
+  width: 100%;
+  background-color: #5186E8;
+}
+
+div#vantagens {
+  height: 500px;
+  width: 100%;
+  background-color: #FFFFFF;
+  margin: 0px;
+}
+
+div#contato {
+  height: 500px;
+  width: 100%;
+  background-color: #5186E8;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #FFFFFF;
+  margin-bottom: 0px;
+}
