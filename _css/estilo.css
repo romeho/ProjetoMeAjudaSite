@@ -25,7 +25,7 @@ nav#menu li {
   padding: 13px;
   margin: 10px;
   transition: background-color 1s;
-  border-radius: 10%;
+  border-radius: 4%;
 }
 
 nav#menu li:hover {
@@ -42,7 +42,7 @@ nav#menu a {
 }
 
 header#cabecalho {
-  height: 150px;
+  height: 90px;
   width: 100%;
   background-color: #2F71E8;
   margin-top: -10px;
