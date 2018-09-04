@@ -6,7 +6,7 @@ body {
 
 /*FORMATAÇÃO MENU*/
 
-nav#menu{
+.menu{
   display: inline-block;
 }
 
